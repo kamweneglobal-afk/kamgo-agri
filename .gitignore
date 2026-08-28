@@ -1,0 +1,43 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Dependencies
+node_modules/
+.dart_tool/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Builds
+dist/
+build/
+.next/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Temporary
+tmp/
+temp/
+
+# Database local files
+*.sqlite
+*.sqlite3
+
+# Certificates / keys
+*.pem
+*.key
+*.crt
+
+# Runtime
+*.pid
